@@ -46,3 +46,9 @@ header nav {
     width: 25px;
     height: 25px;
 }
+
+/*Agregando estilos a la foto*/
+.list img {
+    border-radius: 50%; /**Esta propiedad permite redondedear imagenes*/
+    margin-left: 10px;
+}
