@@ -36,3 +36,13 @@ header nav {
     margin: 10px;
     color: black;
 }
+
+/*Agregando el icono*/
+#menu-icon {
+    background-image: url(https://static.thenounproject.com/png/756729-200.png);
+    background-repeat: no-repeat; /*Cuando la imagen que estamos utilizando es muy pequeña, esta suele repetirse para rellenar el espacio, para evitar esto usamos esta propiedad*/
+    background-position: center; /*Que la imagen quede al centro al 100%*/
+    background-size: contain; /*Para que la imagen se aproxime al tamaño del contenedor*/
+    width: 25px;
+    height: 25px;
+}
