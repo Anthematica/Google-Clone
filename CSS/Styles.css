@@ -52,3 +52,20 @@ header nav {
     border-radius: 50%; /**Esta propiedad permite redondedear imagenes*/
     margin-left: 10px;
 }
+
+/*Agregando estilos al main*/
+main {
+    margin-top: 150px;
+    text-align: center; /*Posicionar el contenido en el centro*/
+}
+
+/*LOGO DE GOOGLE*/
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 300px;
+}
